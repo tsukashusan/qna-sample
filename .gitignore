@@ -1,0 +1,15 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+*~
+*swp
+bin/
+.cache-main
+.cache-tests
+.g8/
+gradle/
