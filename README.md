@@ -8,6 +8,8 @@
 ### Eclipse
 * sbt "eclipse with-source=true"
 * sbt -jvm-debug 65534 ~run
+
 or
+
 * sbt -jvm-debug 65534  
 [qna-hello] ~run
