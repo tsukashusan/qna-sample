@@ -14,7 +14,7 @@ or
 * sbt -jvm-debug 65534  
 [qna-hello] ~run
 
-#Build
+## Build
 * sbt assembly
 
 ## LANCH
