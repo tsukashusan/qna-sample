@@ -28,6 +28,6 @@ extends Controller {
     Ok("Hello World!")
   }
   def bot = Action { implicit request =>
-    Ok(views.html.bot.render("はじめてのボット", configuration.underlying.getString("bot.src")))
+    Ok(views.html.bot.render(configuration.underlying.getString("bot.title"), configuration.underlying.getString("bot.src")))
   }
 }
