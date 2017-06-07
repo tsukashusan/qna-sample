@@ -26,6 +26,6 @@ class HomeController @Inject() extends Controller {
     Ok("Hello World!")
   }
   def bot = Action { implicit request =>
-    Ok(views.html.bot.render("はじめてのボット", "フレームワーク"))
+    Ok(views.html.bot.render("はじめてのボット", "サンプルチャットアプリ"))
   }
 }

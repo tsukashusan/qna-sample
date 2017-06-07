@@ -25,7 +25,9 @@ lazy val commonSettings = Seq(
       oldStrategy(x)
   },
   mainClass in assembly := Some("play.core.server.ProdServerStart"),
-  fullClasspath in assembly += Attributed.blank(PlayKeys.playPackageAssets.value)
+  fullClasspath in assembly += Attributed.blank(PlayKeys.playPackageAssets.value),
+  javacOptions ++= Seq("-encoding", "UTF-8"),
+  javaOptions in (Test,run) ++= Seq("-Dfile.encoding=UTF-8")
 )
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala).settings(commonSettings)
