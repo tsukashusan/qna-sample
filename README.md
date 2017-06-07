@@ -17,6 +17,6 @@ or
 ## Build
 * sbt assembly
 
-## LANCH
+## LAUNCH
 ### EXAMPLE
-* BOT\_SRC="https://webchat.botframework.com/embed/peppersample1?s=<YOUR SECRETKEY\>" java -jar target/scala-2.11/qna-hello-assembly-1.0-SNAPSHOT.jar
+* SERVER\_PORT=8080 BOT\_SRC="https://webchat.botframework.com/embed/peppersample1?s=<YOUR SECRETKEY\>" java -jar target/scala-2.11/qna-hello-assembly-1.0-SNAPSHOT.jar
